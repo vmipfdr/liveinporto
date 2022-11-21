@@ -9,15 +9,17 @@ import './App.css';
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Connect from "./pages/Connect";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
     <div className="App">
-      <div className="App-header">
+      <Navbar />
+      <nav className="Nav-header">
         <div>
-          This is the Main Page.
+          Live in Porto.
         </div>
-      </div>
+      </nav>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
@@ -35,17 +37,17 @@ export default function App() {
 //     <Router>
 //       <div>
 //         <nav>
-//           <ul>
-//             <li>
-//               <Link to="/">Home</Link>
-//             </li>
-//             <li>
-//               <Link to="/about">About</Link>
-//             </li>
-//             <li>
-//               <Link to="/users">Users</Link>
-//             </li>
-//           </ul>
+          // <ul>
+          //   <li>
+          //     <Link to="/">Home</Link>
+          //   </li>
+          //   <li>
+          //     <Link to="/about">About</Link>
+          //   </li>
+          //   <li>
+          //     <Link to="/users">Users</Link>
+          //   </li>
+          // </ul>
 //         </nav>
 
 //         {/* A <Switch> looks through its children <Route>s and
