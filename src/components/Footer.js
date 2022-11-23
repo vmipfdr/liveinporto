@@ -6,10 +6,8 @@ import './Footer.css';
 
 export default function Footer() {
   return (
-    <div className="navbar">
-      <div className="liveinport_box">
-        <a href="/">Footer</a>
-      </div>
+    <div className="footer">
+      <p>Footer.</p>
     </div>
   );
 }

@@ -1,3 +1,4 @@
 .about {
-    border: 2px solid green;
+    min-height: 80vh;
+    background-color: aqua;
 }

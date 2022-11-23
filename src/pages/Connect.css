@@ -1,3 +1,4 @@
 .connect {
-    border: 2px solid purple;
+    min-height: 80vh;
+    background-color: aquamarine;
 }
