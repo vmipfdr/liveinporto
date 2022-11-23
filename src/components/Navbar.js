@@ -7,11 +7,15 @@ import './Navbar.css';
 export default function Navbar() {
   return (
     <div className="navbar">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/connect">Connect</a></li>
-      </ul>
+      <div className="liveinport_box">
+        <a href="/">Live in Porto!</a>
+      </div>
+      <div className="navbar_corner">
+        <a className="navbar_conrner__links" href="/">Home</a>
+        <a className="navbar_conrner__links" href="/about">About</a>
+        <a className="navbar_conrner__links" href="/connect">Connect</a>
+      </div>
     </div>
   );
 }
+

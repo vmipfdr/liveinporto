@@ -10,16 +10,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Connect from "./pages/Connect";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <div className="App">
       <Navbar />
-      <nav className="Nav-header">
-        <div>
-          Live in Porto.
-        </div>
-      </nav>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
@@ -27,10 +23,17 @@ export default function App() {
           <Route path="/connect" element={<Connect/>} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
 
+
+// <nav className="Nav-header">
+// <div>
+//   Live in Porto.
+// </div>
+// </nav>
 
 // export default function App() {
 //   return (
